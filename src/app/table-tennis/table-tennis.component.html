@@ -1,0 +1,7 @@
+<div class="header">
+    <h1>Table Tennis App</h1>
+    <i class="bi bi-arrow-left bi-lg" (click)="backMethod()"></i>
+    </div>
+    <app-game [player1]='player1' [player2]='player2' (currentPlayerData)='updateCurrentValue($event)'></app-game>
+    <app-winner-display [player1Total]='player1.total' [player2Total]='player2.total' [winner] ='winner'></app-winner-display>
+    

@@ -1,0 +1,23 @@
+.result{
+    margin-top: 95px;
+    margin-left: 30px;
+    font-size: larger;
+}
+.status{    
+    font-size: larger;
+    margin-left: 419px;
+    margin-right: 295px;
+    display: inline-block;
+    width: 162px;
+}
+.reportCard{
+    border-radius: 14px;
+    background-color: #c4c4c4;
+    width: 28px;
+    font-size: larger;
+    display: inline-block;
+    text-align: center;
+}
+.player{
+    margin-right: 20px;
+}

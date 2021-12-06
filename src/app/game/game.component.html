@@ -1,0 +1,36 @@
+<div class="container">
+    <div class="row">
+      <div class="col-2">
+        <button class="btnStyle" (click)="scoreUpdate(player1,'smash')">SMASH</button>
+      </div>
+      <!-- Offset adds left margin w.r.t column -->
+      <div class="col-2 offset-8">
+        <button class="btnStyle" (click)="scoreUpdate(player2,'smash')">SMASH</button>
+      </div>
+    </div>
+    <div class="row top-buffer">
+      <div class="col-2">
+        <button class="btnStyle" (click)="scoreUpdate(player1,'ace')">ACE</button>
+      </div>
+      <div class="col-2 offset-1">
+        <span class="playerStyle">Player1</span>
+      </div>
+      <div class="col-2 offset-1">
+        VS
+      </div>
+      <div class="col-2">
+        <span class="playerStyle">Player2 </span>
+      </div>
+      <div class="col-2">
+        <button class="btnStyle" (click)="scoreUpdate(player2,'ace')">ACE</button>
+      </div>
+    </div>
+    <div class="row top-buffer">
+      <div class="col-2">
+        <button  class="btnStyle" (click)="scoreUpdate(player1,'fluke')">FLUKE</button>
+      </div>
+      <div class="col-2 offset-8">
+        <button  class="btnStyle" (click)="scoreUpdate(player2,'fluke')">FLUKE</button>
+      </div>
+    </div>
+  </div>

@@ -1,0 +1,23 @@
+.top-buffer { 
+    margin-top:60px; 
+}
+.btnStyle{
+    background-color: #c4c4c4;
+    width: 70px;
+    height: 46px;
+    box-shadow: 1px 1px 5px grey;
+    border: none;
+    border-radius: 6px;
+}
+.btnStyle:hover {
+    background-color: darkgrey
+}
+.btnStyle:active {
+  box-shadow: 0 5px darkgrey;
+  transform: translate(2px,2px);
+}
+.playerStyle{
+    display: inline-block;
+    padding: 12px;
+    background-color: rgb(18,198,255);
+}
